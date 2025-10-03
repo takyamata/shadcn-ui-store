@@ -1,0 +1,8 @@
+// Shared Sass mixins
+// Usage: @include sp { ... }
+// Adjust breakpoint as you like
+@mixin sp {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
